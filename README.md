@@ -1,26 +1,30 @@
-# Проєкт "Filmoteka"
+# Filmoteka project
 https://github.com/novittana/team-project-filmoteka
 
-Командою G7 реалізовано проєкт "Filmoteka", а саме розроблено веб-сайт з пошуку найпопулярніших фільмів. Користувач з легкістю може знайти фільм за ключовим словом на головній сторінці, отримати повну інформацію про кінофільм (детальний опис, рейтинг, дата прем'єри, жанр та перегляд трейлеру фільму), а також створити свою власну колекцію фільмів.
+The G7-Team has developed the Filmoteka project, a website for finding the most popular movies. The user can easily find a movie by keyword on the main page, get complete information about the movie (detailed description, rating, premiere date, genre and watch the movie trailer), as well as create his own movie collection.
 
-# Сучасні підходи та технології, використані у проєкті
+# Modern approaches and technologies used in the project:
 
- 1. Респонсивна верстка
- 2. Адаптивна графіка
- 3. Стратегія Mobile First
- 4. Оптимізація розмірів векторної та растрової графіки
- 5. Front-end технології (HTML/CSS, SASS/CSS, JavaScript, Axios, Pagination)
- 6. Back-end технології (Node.js)
- 7. Utilites (VSCode, Figma, Git/GitHub, Trello, Parcel)
+ 1. Responsive layout
+ 2. Adaptive graphics
+ 3. Mobile First strategy
+ 4. Optimization of the dimensions of vector and raster graphics
+ 5. Front-end technologies (HTML/CSS, SASS/CSS, JavaScript, Axios, Pagination)
+ 6. Back-end technologies (Node.js)
+ 7. Utilities (VSCode, Figma, Git/GitHub, Trello, Parcel)
 
-# Завдання команди розробників проєкту
+# The project was created by a team of girls, each of whom worked on specific tasks:
 
-Проєкт створено командою дівчат, кожна з яких працювала над конкретними завданнями:
+1. Tetiana Novitska (Team-lead) - active participation in the work on the project architecture, control of tasks performed by developers, code review. Setting up the movies API and developing pagination on the main page.
 
-1. Tetiana Novitska (Team-lead) - активна участь в роботі над архітектурою проєкту, контроль виконання завдань розробниками, рев'ю коду. Налаштування API з фільмів та розробка пагінації на головній сторінці.      
-2. Tamara Kapitonenko (Scrum-master) - верстка шаблонів карток фільму та контейнерів сторінок "Home" та "My library", підвантаження популярних фільмів на головну сторінку.
-3. Anastasia Kulai (Developer) - розробка хедеру проєкту за допомогою основних технологій HTML, CSS, JS    
-4. Kateryna Kovalova (Developer)  - розробка модального вікна з динамічно підставленою інформацією про фільм, додавання фільму до черги поточного користувача за натисканням на кнопку "ADD TO QUEUE" та додавання фільму до переглянутих фільмів поточного користувача за натисканням на кнопку "ADD TO WATCHED". Реалізовано показ трейлеру фільма. 
-5. Irina Medvedeva (Developer) - реалізація пошуку, відображення фільмів за ключовим словом, відтворення відповідної частини фільмів при переході на сторінки "Home" та "My library".         
-6. Hanna Tubolets (Developer) - виведення бібліотеки всіх фільмів користувача при переході на сторінку "My Library". Відтворення переглянутих фільмів користувача за натисканням на кнопку "WATCHED" та фільмів, доданих в чергу користувача за натисканням на кнопку "QUEUE". Додавання кнопки автоматичного скролу нагору (button-up). Анімація лого. Розробка та підключення кастомного прелоудера.
-7. Ksenya Kulibaba (Developer) - верстка футеру проєкту та реалізація модального вікна з інформацією про розробників.
+2. Tamara Kapitonenko (Scrum-master) - layout of movie card templates and "Home" and "My library" page containers, uploading of popular movies to the main page.
+
+3. Anastasia Kulai (Developer) - development of the project header using basic HTML, CSS, JS technologies
+
+4. Kateryna Kovalova (Developer) - development of a modal window with dynamically inserted information about the movie, adding a movie to the current user's queue by clicking the "ADD TO QUEUE" button, and adding a movie to the current user's watched movies by clicking the "ADD TO WATCHED" button. The movie trailer was shown.
+
+5. Irina Medvedeva (Developer) - implementation of search, display of movies by keyword, playback of the corresponding part of movies when going to the "Home" and "My library" pages.
+
+6. Hanna Tubolets (Developer) - displaying the user's library of all movies when going to the "My Library" page. Showing the user's watched movies by clicking the "WATCHED" button and movies added to the user's queue by clicking the "QUEUE" button. Adding button-up button. Logo animation. Development and connection of a custom preloader.
+
+7. Ksenya Kulibaba (Developer) - layout of the project footer and implementation of a modal window with information about developers.
