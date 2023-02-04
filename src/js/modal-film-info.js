@@ -22,7 +22,7 @@ export const createCards = cardInfo => {
     const { poster_path, title, vote_average, vote_count, popularity, original_title, genres, overview,id } = cardInfo
   const genresEl = [];
   //console.log(cardInfo);
-    for (genre of genres) {
+    for (let genre of genres) {
         genresEl.push(genre.name);        
     }
     refs.watchedBtn.dataset.filmId = id;
@@ -211,7 +211,7 @@ const onTrailerClick = async e => {
                             type="text/html" 
                             width="${widthV}" 
                             height="${heightV}"
-                            src="http://www.youtube.com/embed/${data.results[keys].key}?autoplay=1&fs=1&origin=http://example.com"
+                            src="https://www.youtube.com/embed/${data.results[keys].key}?autoplay=1&fs=1&origin=http://example.com"
                             frameborder="0" />`
       refs.trailerIf.innerHTML = trailerMarkup;
     }
